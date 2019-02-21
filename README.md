@@ -1,1 +1,1 @@
-design_pattern sturdy
+design pattern sturdy
