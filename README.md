@@ -1,1 +1,1 @@
-design pattern sturdy
+design pattern sturdy use django framwork
