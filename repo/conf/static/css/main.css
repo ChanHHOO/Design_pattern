@@ -1,0 +1,19 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: "Helvetica Nene", Helvetica, Arial, "malgun gothic", dotum, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer {
+    text-align: center;
+}
+
+.spacer_30 {
+    margin-top: 30px;
+}
+
+.spacer_90 {
+    margin-top: 90px;
+}
