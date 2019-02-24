@@ -1,2 +1,13 @@
+{% extends "index.html" %}
 
-<h1>haha</h1>
+{% block content %}
+
+    <div>
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">저장</button>
+        </form>
+   </div>
+
+{% endblock content %}
