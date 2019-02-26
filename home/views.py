@@ -36,8 +36,8 @@ class WebdriveSetting:
 class login_page(WebdriveSetting):
     def __init__(self):
         WebdriveSetting.__init__(self,)
-        self.driver.find_element_by_name('email').send_keys('hpyho33@naver.com')
-        self.driver.find_element_by_name('password').send_keys('7513aa')
+        self.driver.find_element_by_name('email').send_keys('')
+        self.driver.find_element_by_name('password').send_keys('')
         self.driver.find_element_by_xpath('//*[@id="login"]').click()
 
 
@@ -126,7 +126,7 @@ def index(req, *args, **kwargs):
     #return render_to_response('index.html', {'html':html})
 def test(req):
     msg = 'my message'
-    fb = Home(name = "kim", email = "hpyho33@naver.com", show = "test")
+    fb = Home(name = "kim", email = "", show = "test")
     fb.save()
     return render(req, 'test.html', {'message':msg})
 
