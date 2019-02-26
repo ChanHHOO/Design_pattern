@@ -56,8 +56,8 @@ class goAnotherPage(login_page):
 class crawling:
     def __init__(self):
         LOGIN_INFO = {
-            'userid': 'hpyho',
-            'userPassword': '7513aa',
+            'userid': '',
+            'userPassword': '',
         }
 
         with requests.Session() as s:#  requests.Session() -> s 치환
