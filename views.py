@@ -36,8 +36,8 @@ class WebdriveSetting:
 class login_page(WebdriveSetting):
     def __init__(self):
         WebdriveSetting.__init__(self,)
-        self.driver.find_element_by_name('email').send_keys('hpyho33@naver.com')
-        self.driver.find_element_by_name('password').send_keys('7513aa')
+        self.driver.find_element_by_name('email').send_keys('')
+        self.driver.find_element_by_name('password').send_keys('')
         self.driver.find_element_by_xpath('//*[@id="login"]').click()
 
 
