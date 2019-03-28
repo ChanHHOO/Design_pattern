@@ -20,7 +20,7 @@ import telegram
 
 
 
-bot = telegram.Bot(token='816156203:AAHkomYOGpusDAgOshG1oc_7guQXAI71wWY')
+bot = telegram.Bot(token='')
 chat_id = bot.getUpdates()[-1].message.chat.id
 
 
