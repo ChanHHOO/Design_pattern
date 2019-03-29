@@ -5,7 +5,7 @@ import sys
 class Chat_Bot:
     def __init__(self, latest):
 
-        self.bot = telegram.Bot(token='816156203:AAHkomYOGpusDAgOshG1oc_7guQXAI71wWY')
+        self.bot = telegram.Bot(token='')
         self.chat_id = self.bot.getUpdates()[-1].message.chat.id
         self.latest = latest
     def New_content(self):
